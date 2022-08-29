@@ -5,7 +5,6 @@ import org.subproject2_A.App;
 public class DemoSubproject2 { 
 
 	int k;
-	App app;
 	
 	public static void main(String[] args) {
 		int k_subproject;
@@ -14,7 +13,8 @@ public class DemoSubproject2 {
 	private static DemoSubproject2 fook = null;
 
 	public static DemoSubproject2 getFook() { 
-		
+		 System.out.println(""); 
+		 
 		if (fook==null) {
 			
 		
@@ -38,10 +38,13 @@ System.out.println("hello there there");
 	}
 	
 	public void x(){
+		System.out.println("text");
 		try{
-			System.out.println("therasdasde there");
+			
 		}
-		
+		catch(Exception ex){
+			
+		}
 		
 	}
 	
