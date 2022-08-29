@@ -5,7 +5,6 @@ import org.subproject2_A.App;
 public class DemoSubproject2 { 
 
 	int k;
-	App app;
 	
 	public static void main(String[] args) {
 		int k_subproject;
@@ -14,25 +13,34 @@ public class DemoSubproject2 {
 	private static DemoSubproject2 fook = null;
 
 	public static DemoSubproject2 getFook() { 
-		 System.out.println("12312323"); 
+		 System.out.println(""); 
 		 
 		if (fook==null) {
+			
+		
 			fook = new DemoSubproject2();
-		}                       
+		}              
+		System.out.println("therasdasde there");
+
+	int s1 = 58;  
+System.out.println("hello there there");
+		
 		return fook;
+		
 	}
 
 	
 	
 	public static int getIntValue() {
+	System.out.println("there there");
 	int k = 58; 
 	return k;	
 	}
 	
 	public void x(){
+		System.out.println("text");
 		try{
 			
-		 System.out.println("12312323"); 
 		}
 		catch(Exception ex){
 			
