@@ -41,9 +41,7 @@ System.out.println("hello there there");
 		try{
 			System.out.println("therasdasde there");
 		}
-		catch(Exception ex){
-			
-		}
+		
 		
 	}
 	
